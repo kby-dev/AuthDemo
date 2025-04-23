@@ -6,7 +6,7 @@
 <data-extraction-rules>
     <cloud-backup>
         <!--
-        <include .../>
+        <include ... made />
         <exclude .../>
         -->
     </cloud-backup>
