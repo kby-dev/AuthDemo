@@ -36,7 +36,7 @@ public class RequestDetailSProviderMapActivity extends AppCompatActivity impleme
     private String docId;
     private TextView tvRequestDetails, tvServiceType, tvDescription;
     private Button btnAcceptRequest;
-    private LatLng customerLocation;
+    private LatLng customerLocation;  // fifth
 
 
     @SuppressLint("MissingInflatedId")
