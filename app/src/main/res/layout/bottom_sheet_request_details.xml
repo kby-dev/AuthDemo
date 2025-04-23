@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- First Name -->
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="First Name"
+            android:inputType="textPersonName" />
+
+        <!-- Last Name -->
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:hint="Last Name"
+            android:inputType="textPersonName" />
+
+        <!-- Address (auto-filled from live location) -->
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:enabled="false"
+            android:hint="Address"
+            android:inputType="textPostalAddress" />
+
+        <!-- Service Type Dropdown -->
+        <Spinner
+            android:id="@+id/spinnerServiceType"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Other Service Type (only visible if "Other" is selected) -->
+        <EditText
+            android:id="@+id/etOtherService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter service type"
+            android:inputType="text"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+        <!-- Description message box -->
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:minLines="5" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmitRequest"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Add Request"
+            android:textAlignment="center"
+            android:textColorLink="#773EA6"
+            android:textSize="30sp"
+            app:rippleColor="#E5E8ED" />
+    </LinearLayout>
+</ScrollView>

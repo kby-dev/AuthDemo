@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Phone number input -->
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:autofillHints=""
+            android:hint="@string/enter_phone_number_e_g_1234567890"
+            android:inputType="phone" />
+
+        <!-- Button to send OTP -->
+
+        <!-- OTP input -->
+
+        <Button
+            android:id="@+id/btnSendOtp"
+            android:layout_width="145dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:text="@string/send_otp" />
+
+        <EditText
+            android:id="@+id/etOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/enter_otp"
+            android:inputType="number"
+            android:visibility="gone" />
+
+        <!-- Button to verify OTP and link phone number -->
+        <Button
+            android:id="@+id/btnVerifyOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verify_otp_and_link_phone"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

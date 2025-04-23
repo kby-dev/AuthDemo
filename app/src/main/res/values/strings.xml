@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Opus</string>
+    <string name="or">OR</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_phone_number_e_g_1234567890">Enter phone number (e.g., +1234567890)</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="welcome_to_the_celer">Welcome to Celer</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="verify_otp_and_link_phone">Verify OTP and Link Phone</string>
+    <string name="todo">TODO</string>
+    <string name="requests">Requests</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="menu">Menu</string>
+    <string name="test_icon">Test Icon</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>

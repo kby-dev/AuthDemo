@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "521058867109",
+    "project_id": "login-243f3",
+    "storage_bucket": "login-243f3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521058867109:android:af0a97a578d28747e23a4c",
+        "android_client_info": {
+          "package_name": "com.dev.authdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521058867109-vrkfrkupchcbmu1r953iqbj5ulq4gruv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALSs3WvkEnniLgT1RmehinEmc2833UQj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521058867109-vrkfrkupchcbmu1r953iqbj5ulq4gruv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

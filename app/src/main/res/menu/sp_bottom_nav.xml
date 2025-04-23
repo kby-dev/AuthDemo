@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_pending"
+        android:title="Pending"/>
+    <item
+        android:id="@+id/nav_accepted"
+        android:title="Accepted"/>
+    <item
+        android:id="@+id/nav_ignored"
+        android:icon="@drawable/ic_cancel"
+        android:title="Ignored"/>
+</menu>
