@@ -38,6 +38,7 @@ public class RequestDetailSProviderMapActivity extends AppCompatActivity impleme
     private Button btnAcceptRequest;
     private LatLng customerLocation;
 
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
